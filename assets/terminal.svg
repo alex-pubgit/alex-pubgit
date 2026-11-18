@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 452" width="1200" height="452" role="img" aria-labelledby="title desc">
+  <title id="title">Excerpts of real output from the three demo repositories</title>
+  <desc id="desc">The document chatbot refuses to guess when the documents do not cover a question. The payment watcher verifies a real USDT payment from its transaction hash. The support bot deletes a message that contains a wallet recovery phrase.</desc>
+  <style>
+    .cursor { animation: blink 1.2s steps(1) infinite; }
+    @keyframes blink { 50% { opacity: 0; } }
+    @media (prefers-reduced-motion: reduce) { .cursor { animation: none; } }
+  </style>
+
+  <rect width="1200" height="452" rx="14" fill="#0d1117"/>
+  <rect x="0.5" y="0.5" width="1199" height="451" rx="13.5" fill="none" stroke="#30363d"/>
+  <path d="M0.5 46 H1199.5" stroke="#30363d"/>
+  <g fill="#30363d">
+    <circle cx="30" cy="24" r="6"/>
+    <circle cx="52" cy="24" r="6"/>
+    <circle cx="74" cy="24" r="6"/>
+  </g>
+  <text x="600" y="29" fill="#8b949e" font-size="14" text-anchor="middle"
+        font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Noto Sans', Helvetica, Arial, sans-serif">real output from the three demos</text>
+
+  <g font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Noto Sans', Helvetica, Arial, sans-serif"
+     font-size="14" fill="#8b949e" text-anchor="end">
+    <text x="1160" y="88">refuses to guess</text>
+    <text x="1160" y="172">checks a payment on-chain</text>
+    <text x="1160" y="312">removes a leaked seed phrase</text>
+  </g>
+
+  <g font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="17" xml:space="preserve">
+    <text x="40" y="88"><tspan fill="#8b949e">$ </tspan><tspan fill="#f0f6fc">ragbot ask "Who founded AcmeSwap?"</tspan></text>
+    <text x="40" y="116" fill="#c9d1d9">I don't know based on the provided documents.</text>
+
+    <text x="40" y="172"><tspan fill="#8b949e">$ </tspan><tspan fill="#f0f6fc">paywatch check-tx --chain bsc --tx 0xdc1f...debc --to 0x4620...9060</tspan></text>
+    <text x="40" y="200" fill="#3fb950" font-weight="700">PASS</text>
+    <text x="40" y="228" fill="#c9d1d9">  - 969.250360260820715703 USDT from the genuine contract to 0x4620...9060</text>
+    <text x="40" y="256" fill="#c9d1d9">  - 1303 confirmations (15 required)</text>
+
+    <text x="40" y="312"><tspan fill="#8b949e">$ </tspan><tspan fill="#f0f6fc">supportbot simulate --script examples/demo.script</tspan></text>
+    <text x="40" y="340" fill="#c9d1d9">erin: help, my wallet words are [removed: possible recovery phrase]</text>
+    <text x="40" y="368" fill="#3fb950">  (bot deleted this message)</text>
+
+    <text x="40" y="424"><tspan fill="#8b949e">$ </tspan><tspan class="cursor" fill="#3fb950">&#9608;</tspan></text>
+  </g>
+</svg>
