@@ -24,11 +24,10 @@ Every README has a "Tested and not tested" table. I tell you what I did not veri
 
 ```mermaid
 flowchart LR
-    A["You describe the problem"] --> B["Plan, main risk, fixed price"]
-    B --> C["Scope agreed in writing"]
-    C --> D["Escrow funded"]
-    D --> E["Build, with updates every 1-2 days"]
-    E --> F["Tested delivery and handover"]
+    A["Plan and fixed price"] --> B["Scope in writing"]
+    B --> C["Escrow funded"]
+    C --> D["Build with updates"]
+    D --> E["Tested handover"]
 ```
 
 <table>
