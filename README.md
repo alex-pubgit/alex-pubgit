@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="assets/banner.svg" width="100%" alt="Alex, AI systems engineer. Document chatbots that cite their sources, support bots and payment automation for crypto teams. Scope in writing first, tested before delivery, read-only by default.">
+  <img src="assets/banner.svg" width="100%" alt="Alex Booth, AI systems engineer. Document chatbots that cite their sources, support bots and payment automation for crypto teams. Scope in writing first, tested before delivery, read-only by default.">
 </p>
 
 I build AI assistants that answer from your documents, support bots for Telegram and Discord communities, and Python automation for crypto and Web3 teams.

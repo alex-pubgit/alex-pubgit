@@ -1,5 +1,5 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 300" width="1200" height="300" role="img" aria-labelledby="title desc">
-  <title id="title">Alex, AI systems engineer</title>
+  <title id="title">Alex Booth, AI systems engineer</title>
   <desc id="desc">Document chatbots that cite their sources, support bots and payment automation for crypto teams. Scope in writing first, tested before delivery, read-only by default.</desc>
 
   <rect width="1200" height="300" rx="14" fill="#0d1117"/>
@@ -9,7 +9,7 @@
   <g font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Noto Sans', Helvetica, Arial, sans-serif">
     <text x="84" y="84" fill="#3fb950" font-size="16" font-weight="600" letter-spacing="3"
           font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace">AI SYSTEMS ENGINEER</text>
-    <text x="81" y="150" fill="#f0f6fc" font-size="62" font-weight="700">Alex</text>
+    <text x="81" y="150" fill="#f0f6fc" font-size="62" font-weight="700">Alex Booth</text>
     <text x="84" y="193" fill="#c9d1d9" font-size="23">Document chatbots that cite their sources.</text>
     <text x="84" y="225" fill="#c9d1d9" font-size="23">Support bots and payment automation for crypto teams.</text>
 
