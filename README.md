@@ -22,13 +22,9 @@ Every README has a "Tested and not tested" table. I tell you what I did not veri
 
 ## How a project with me runs
 
-```mermaid
-flowchart LR
-    A["Plan and fixed price"] --> B["Scope in writing"]
-    B --> C["Escrow funded"]
-    C --> D["Build with updates"]
-    D --> E["Tested handover"]
-```
+<p align="center">
+  <img src="assets/process.svg" width="100%" alt="Five steps in order: plan and fixed price, scope in writing, escrow funded, build with updates, tested handover.">
+</p>
 
 <table>
 <tr>

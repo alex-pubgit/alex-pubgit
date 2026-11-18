@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 150" width="1200" height="150" role="img" aria-labelledby="title desc">
+  <title id="title">How a project runs</title>
+  <desc id="desc">Five steps in order: plan and fixed price, scope in writing, escrow funded, build with updates, tested handover.</desc>
+
+  <rect width="1200" height="150" rx="14" fill="#0d1117"/>
+  <rect x="0.5" y="0.5" width="1199" height="149" rx="13.5" fill="none" stroke="#30363d"/>
+
+  <g stroke="#8b949e" stroke-width="1.5" fill="#8b949e">
+    <line x1="236" y1="83" x2="263" y2="83"/><path d="M271 83 l-9 -5 v10 z" stroke="none"/>
+    <line x1="467" y1="83" x2="494" y2="83"/><path d="M502 83 l-9 -5 v10 z" stroke="none"/>
+    <line x1="698" y1="83" x2="725" y2="83"/><path d="M733 83 l-9 -5 v10 z" stroke="none"/>
+    <line x1="929" y1="83" x2="956" y2="83"/><path d="M964 83 l-9 -5 v10 z" stroke="none"/>
+  </g>
+
+  <g font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace"
+     font-size="12" fill="#8b949e" text-anchor="middle" letter-spacing="2">
+    <text x="138" y="40">STEP 1</text>
+    <text x="369" y="40">STEP 2</text>
+    <text x="600" y="40">STEP 3</text>
+    <text x="831" y="40">STEP 4</text>
+    <text x="1062" y="40">STEP 5</text>
+  </g>
+
+  <g font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Noto Sans', Helvetica, Arial, sans-serif"
+     font-size="18" fill="#f0f6fc" text-anchor="middle">
+    <rect x="40" y="55" width="196" height="56" rx="8" fill="#161b22" stroke="#30363d"/>
+    <text x="138" y="89">Plan and fixed price</text>
+    <rect x="271" y="55" width="196" height="56" rx="8" fill="#161b22" stroke="#30363d"/>
+    <text x="369" y="89">Scope in writing</text>
+    <rect x="502" y="55" width="196" height="56" rx="8" fill="#161b22" stroke="#30363d"/>
+    <text x="600" y="89">Escrow funded</text>
+    <rect x="733" y="55" width="196" height="56" rx="8" fill="#161b22" stroke="#30363d"/>
+    <text x="831" y="89">Build with updates</text>
+    <rect x="964" y="55" width="196" height="56" rx="8" fill="#12261a" stroke="#3fb950"/>
+    <text x="1062" y="89" fill="#3fb950">Tested handover</text>
+  </g>
+</svg>
